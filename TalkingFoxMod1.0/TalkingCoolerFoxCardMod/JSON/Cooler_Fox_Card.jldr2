@@ -1,0 +1,16 @@
+{
+  "name": "Cooler_Fox",
+  "modPrefix": "Cooler_Fox",
+  "displayedName": "Cooler Fox",
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "tribes": [
+    "Canine"
+  ],
+  "abilities": [
+    "DebuffEnemy"
+  ],
+  "onePerDeck": true
+}

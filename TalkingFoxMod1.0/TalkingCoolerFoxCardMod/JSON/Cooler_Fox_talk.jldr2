@@ -1,0 +1,34 @@
+{
+  "cardName": "Cooler_Fox",
+  "faceSprite": "",
+  "eyeSprites": {
+    "open": "",
+    "closed": ""
+  },
+  "mouthSprites": {
+    "open": "Cooler_Fox_mouthopen.png",
+    "closed": "Cooler_Fox_neutralface.png"
+  },
+  "emissionSprite": "",
+  "faceInfo": {
+    "voiceSoundPitch": 1.8,
+    "customVoice": "Testvoice - Copy.ogg"
+  },
+  "dialogueEvents": [
+    {
+      "eventName": "OnAttacked",
+      "mainLines": [
+        "Watch it![w:0.3]I bleach easy!"
+      ],
+      "repeatLines": [
+        [
+          "I don't need another hole![w:0.3]"
+        ],
+        [
+          "Wow...thats a lot of[w:0.2]",
+          "ketchup stains...[w:0.3]"
+        ]
+      ]
+    }
+  ]
+}

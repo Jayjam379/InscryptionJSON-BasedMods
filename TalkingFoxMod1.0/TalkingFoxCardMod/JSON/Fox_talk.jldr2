@@ -1,0 +1,391 @@
+{
+  "cardName": "Fox",
+  "faceSprite": "Faceneutral.png",
+  "eyeSprites": {
+    "open": "Eyesopenneutral.png",
+    "closed": "Eyesclosedneutral.png"
+  },
+  "mouthSprites": {
+    "open": "Mouthopenneutral.png",
+    "closed": "Mouthclosedneutral.png"
+  },
+  "emissionSprite": "neutralemission.png",
+  "faceInfo": {
+    "blinkRate": 1.5,
+    "voiceSoundPitch": 1.5,
+    "customVoice": "Testvoice.ogg"
+  },
+  "emotions": [
+    {
+      "emotion": "Laughter",
+      "faceSprite": "Facelaugh.png",
+      "eyeSprites": {
+        "open": "Eyelaugh.png",
+        "closed": "Eyelaugh.png"
+      },
+      "mouthSprites": {
+        "open": "Laughmouthopen.png",
+        "closed": "Laughmouthclosed.png"
+      },
+      "emissionSprite": "laughemission(blank).png"
+    },
+    {
+      "emotion": "Anger",
+      "faceSprite": "Faceanger.png",
+      "eyeSprites": {
+        "open": "Angereyeopen.png",
+        "closed": "Angereyeclosed.png"
+      },
+      "mouthSprites": {
+        "open": "Angermouthopen.png",
+        "closed": "angermouthclosed.png"
+      },
+      "emissionSprite": "angeremission.png"
+    },
+    {
+      "emotion": "Quiet",
+      "faceSprite": "Quietface.png",
+      "eyeSprites": {
+        "open": "Quieteyesopen.png",
+        "closed": "Quieteyesclosed.png"
+      },
+      "mouthSprites": {
+        "open": "Quietmouthopen.png",
+        "closed": "Quietmouthclosed.png"
+      },
+      "emissionSprite": "quietemission.png"
+    },
+    {
+      "emotion": "Surprise",
+      "faceSprite": "Surprisedface.png",
+      "eyeSprites": {
+        "open": "Surprisedeyesopen.png",
+        "closed": "Surprisedeyesclosed.png"
+      },
+      "mouthSprites": {
+        "open": "Surprisedmouthopen.png",
+        "closed": "Surprisedmouthclosed.png"
+      },
+      "emissionSprite": "surprisedemission.png"
+    },
+    {
+      "emotion": "Curious",
+      "faceSprite": "Curiousface.png",
+      "eyeSprites": {
+        "open": "Curiouseyesopen.png",
+        "closed": "Curiouseyesclosed.png"
+      },
+      "mouthSprites": {
+        "open": "Curiousmouthopen.png",
+        "closed": "Curiousmouthclosed.png"
+      },
+      "emissionSprite": "curiousemission.png"
+    }
+  ],
+  "dialogueEvents": [
+    {
+      "eventName": "OnDrawn",
+      "mainLines": [
+        "[w:0.5]Hey pal.[w:0.8]",
+        "I see you have an eye for good cards.[w:0.5]",
+        "[e:5]And who wouldn't want a card that talks to them?[w:0.5][e:5]",
+        "[e:1][w:0.4]...[w:0.8]",
+        "[e:5]You wanted a talking card,[w:0.6]right?[leshy:I warned you.][w:1.2][e:5]",
+        "[e:2]Hey![w:0.4]You'd have a lot to say too beardy![w:0.5][e:2]",
+        "[e:2]I've been shuffled behind skunk ass and[w:0.5]",
+        "[e:2]in front of raven beak[w:0.5]",
+        "[e:2]more times than I'd like to remember...[w:0.5]",
+        "[e:5]...[w:0.6]Anyway...[w:0.2]",
+        "As the great Michael Bay always says...[w:0.4]",
+        "There's more than meets the eye.[w:0.4]",
+        "Or...[w:0.2]something like that...[w:0.4]"
+      ],
+      "repeatLines": [
+        [
+          "[e:1]Hey there champ![w:0.4][e:1][w:0.4]",
+          "[e:5]You probably didn't expect[w:0.2][e:5][w:0.2]",
+          "[e:5]the ole sock puppet trick, huh?[w:0.4][e:5][w:0.4]",
+          "[e:0]Yes sir, they never see it[w:0.2]",
+          "coming![w:0.2]",
+          "[e:5]That being said though,[w:0.2]",
+          "[e:5]Don't make me do it too much...[w:0.3]",
+          "[e:3]Taking a fall like that[w:0.2]",
+          "[e:3]does a number on your back...[w:0.3]"
+        ],
+        [
+          "Good draw?[w:0.4] Bad draw?[w:0.4]",
+          "[e:1]Who cares! I'm here![w:0.5]"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnPlayFromHand",
+      "mainLines": [
+        "That's more like it!"
+      ],
+      "repeatLines": [
+        [
+          "Guess I'm a crowd favorite!"
+        ],
+        [
+          "Can I ring the bell?"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnAttacked",
+      "mainLines": [
+        "[e:2]Watch the paint!"
+      ],
+      "repeatLines": [
+        [
+          "[e:4]Ow![w:0.3]",
+          "[e:3]...Was it something I said?"
+        ],
+        [
+          "[e:4]Truce! Truce!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectablePositive",
+      "mainLines": [
+        "Pretty please?"
+      ],
+      "repeatLines": [
+        [
+          "You know you want to..."
+        ],
+        [
+          "[e:5]For little old me?",
+          "[e:1]You shouldn't have!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForCardRemove",
+      "mainLines": [
+        "A..[w:0.2][e:3]Already?"
+      ],
+      "repeatLines": [
+        [
+          "Heh...heh...",
+          "[e:3]You'd never...right?"
+        ],
+        [
+          "[e:3]..."
+        ],
+        [
+          "[e:3]...[w:1]You'll remember me, right?[e:3]"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSacrificed",
+      "mainLines": [
+        "[e:2]Buzzkill..."
+      ],
+      "repeatLines": [
+        [
+          "[e:2]You're impatient"
+        ],
+        [
+          "[e:3] I'm THAT annoying?"
+        ]
+      ]
+    },
+    {
+      "eventName": "ProspectorBoss",
+      "mainLines": [
+        "Howdy pardner! [w:0.2]   ",
+        "Welcome to my favorite boss…[w:0.4]   ",
+        "Not because it's hard or anything[w:0.4]   ",
+        "[e:5]It's just that…[w:0.2]honestly...[w:0.2][e:5]   ",
+        "[e:2]This is his worst impression[w:0.4][e:2]",
+        "[e:2]It reads like he only knows[w:0.3][e:2]",
+        "[e:2]what a prospector talks like[w:0.3][e:2]",
+        "[e:2]from Mad Dog McCree…[w:0.3][e:2]",
+        "[e:0]You know the one[w:0.2]",
+        "[e:1][c:O]Oooo you missed that one,[w:0.4]",
+        "[e:1]Try Another![leshy:You know nothing of my craft.][w:1]",
+        "[e:2]You're just lucky we[w:0.2][e:2]",
+        "[e:2]work off Banjo-Kazooie rules…[w:0.2][e:2]",
+        "[e:1]My voice acting would[w:0.2]",
+        "[e:1]Blow yours away![w:0.2]"
+      ],
+      "repeatLines": [
+        [
+          "Yeehaw![w:0.2]",
+          "Here we go again…[w:0.2]",
+          "[e:5]You know, I'd have SO much[w:0.4][e:5]",
+          "[e:5]more production value in a[w:0.4][e:5]",
+          "[e:5]boss fight than this![w:0.2][e:5]",
+          "[e:1]There'd be all these secret tactics![w:0.4][e:1]",
+          "[e:1]Crazy weapons! Powerups![w:0.2][e:1]",
+          "[e:1]Vehicles! Gripping Story! Skill-[w:0.2][e:1]",
+          "[e:5]...[w:0.2]Sorry"
+        ],
+        [
+          "Jumpin’ Jackrabbits![w:0.2]",
+          "[e:5]Here again?[w:0.2]",
+          "Just make this quick[w:0.2]",
+          "[e:2]I'm out of constructive[w:0.2][e:2]",
+          "[e:2]criticism for Lesh here…[w:0.2]"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForDeckTrial",
+      "mainLines": [
+        "Guess who!"
+      ],
+      "repeatLines": [
+        [
+          "A test?[w:0.2]",
+          "[e:4]I didn't study!"
+        ]
+      ]
+    },
+    {
+      "eventName": "AnglerBoss",
+      "mainLines": [
+        "[e:4]WOOOO WEEEE![w:0.2]",
+        "[e:0]Stinks in here, don't it?[w:0.2]",
+        "I’m sure Leshy’s BO isn't[w:0.2]",
+        "[e:1]doing any favors![leshy:Watch your tongue...][w:0.2]",
+        "[e:2]Calm down fish boy…[w:0.2]",
+        "No harm No foul if[w:0.2]",
+        "our friend behind the screen[w:0.2]",
+        "can't smell it, right?[w:0.2]"
+      ],
+      "repeatLines": [
+        [
+          "If you had to choose between[w:0.3]",
+          "The smell of mines, leather,[w:0.3]",
+          "or rotting fish...[w:0.4]",
+          "[e:5]Which would you pick?[w:0.4]",
+          "....[e:3]asking for a friend.[w:0.2]",
+          "[e:3]Try to finish this quick, OK?[w:0.2]"
+        ],
+        [
+          "[e:3] OK, now I can't[w:0.2]",
+          "[e:3]even[w:0.2] THINK straight.[w:0.2]",
+          "[e:3]The smell is[w:0.2] THAT bad.[w:0.2]",
+          "[e:3]Just[w:0.2]...win this...[w:0.2]"
+        ]
+      ]
+    },
+    {
+      "eventName": "TrapperTraderBoss",
+      "mainLines": [
+        "Cool floaty knives and all...",
+        "[e:5]But I can DEFINITELY see[w:0.3]",
+        "[e:5]the strings pulling them.[w:0.3]",
+        "Plus, they don't even[w:0.3]",
+        "look real![leshy:Perhaps we could try them on you then?][w:1.7]",
+        "[e:1]Hah![w:0.2]",
+        "[e:0] Everyone knows[w:0.2]",
+        "you can't hurt a[w:0.2]",
+        "cartoon character![w:0.2]",
+        "[e:5]If I were based on a real fox,[w:0.2]",
+        "[e:5]I'd be in deep shit![w:0.2]"
+      ],
+      "repeatLines": [
+        [
+          "[e:3]Ugh...[w:0.2]this again?[w:0.2]",
+          "[e:2]Hey![w:0.2] Buddy![w:0.2]",
+          "[e:2]Didn't we already tell you?[w:0.2]",
+          "[e:2]Your butter knives[w:0.2]",
+          "[e:2]can't hurt me![w:0.2]"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectableNegative",
+      "mainLines": [
+        "[e:2]My gut says no..."
+      ],
+      "repeatLines": [
+        [
+          "[e:5]I've seen less sketchy[w:0.2]",
+          "[e:5]truck stop bathrooms..."
+        ],
+        [
+          "[e:2]Don't say I didn't warn you..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForCardMerge",
+      "mainLines": [
+        "Will this let me shoot lasers?"
+      ],
+      "repeatLines": [
+        [
+          "Wish me luck!"
+        ],
+        [
+          "Imagine how broken[w:0.2]",
+          "of a card this could make me!"
+        ]
+      ]
+    },
+    {
+      "eventName": "LeshyBoss",
+      "mainLines": [
+        "Can I just say,[w:0.3]",
+        "I really appreciate you[w:0.2]",
+        "taking me this far…[w:0.4]",
+        "[e:3]...[w:0.4]heh...[w:0.4]",
+        "[e:3]It's funny...[w:0.4]despite it all...[w:0.4]",
+        "[e:3]I'm still as chatty in here[w:0.2]",
+        "[e:3]as I was out there...[w:0.4][leshy:Flattery will not grant you freedom.][w:2.5] ",
+        "[e:3][w:0.3][leshy:You will always belong to me.][w:1.7]",
+        "[e:3]...I know.[w:0.8]",
+        "But I've finally found[w:0.2]",
+        "someone who can tolerate me![w:0.3]",
+        "And that's good enough for me![w:0.4]",
+        "C'mon tiger, let's show him![w:0.2]"
+      ],
+      "repeatLines": [
+        [
+          "[e:5]You Ready?[w:0.4]",
+          "[e:5]Because I got a dentist[w:0.2]",
+          "[e:5]appointment with the[w:0.2]",
+          "[e:5]Mycologist in like[w:0.2]",
+          "[e:5]half an hour that I[w:0.2]",
+          "[e:2]CAN'T.[w:0.3] MISS.[w:0.4]"
+        ],
+        [
+          "Hope you had[w:0.2] ",
+          "a bathroom break [w:0.2]",
+          "before we start...[w:0.3]",
+          "This battle could get long![w:0.2]"
+        ]
+      ]
+    },
+    {
+      "eventName": "RoyalBoss",
+      "mainLines": [
+        "[e:1]OH! OH![w:0.2]",
+        "[e:1]I HAVE A JOKE FOR THIS![w:0.2]",
+        "How do pirates[w:0.2]",
+        "know they're pirates[w:0.5]",
+        "...[w:0.4]",
+        "They think, therefore they[w:0.2]",
+        "ARRRR!!!!!![w:0.4]",
+        "[e:5]...get it?[w:0.2]"
+      ],
+      "repeatLines": [
+        [
+          "Ah...to be a pirate[w:0.2]",
+          "sailing the open seas...[w:0.4]",
+          "[e:5]Of course, I'm more of a[w:0.2]",
+          "[e:5]mojito on the beach[w:0.2]",
+          "[e:5]sort of guy, but[w:0.2]",
+          "[e:5]you do you, man...[w:0.2]"
+        ]
+      ]
+    }
+  ]
+}
